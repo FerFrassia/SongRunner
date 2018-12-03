@@ -1,5 +1,5 @@
 # SongRunner
-![SongRunner](https://github.com/FerFrassia/SongRunner/blob/master/Designs/Icons/1024/Asset%208%403x.png =50x50)
+<img src="https://github.com/FerFrassia/SongRunner/blob/master/Designs/Icons/1024/Asset%208%403x.png" width="195" height="100" alt="SongRunner" align="right" />
 **SongRunner** is an iOS game to help you sing better, it takes the audio input from the microphone and estimates the fundamental frequency to move the player on the screen.
 
 # Author
