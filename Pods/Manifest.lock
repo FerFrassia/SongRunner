@@ -1,0 +1,25 @@
+PODS:
+  - Beethoven (4.0.2):
+    - Pitchy (~> 3.0)
+  - Hue (3.0.1)
+  - Pitchy (3.0.0)
+
+DEPENDENCIES:
+  - Beethoven
+  - Hue
+  - Pitchy
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Beethoven
+    - Hue
+    - Pitchy
+
+SPEC CHECKSUMS:
+  Beethoven: e517331e5087064e1c1fd3d3775fddb8d9f3017d
+  Hue: 93e852fa6211ab35922ad8c293f51c43d6c79eb2
+  Pitchy: 15407e4425b6d88fa3e7eef8927ba659fab52d7a
+
+PODFILE CHECKSUM: 84576717b390c53a8cf569043d6728c4868ac2f5
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,1137 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E76C84A0C6C419EA93A2026E008315 /* UIColor+Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268B390835599CC3CB94B5522EDD30B8 /* UIColor+Hue.swift */; };
+		0FB0B466ADDF257FC6F07CCDBFF03B68 /* InputSignalTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F3F13A21D49470A5059B6A1B9BAE7 /* InputSignalTracker.swift */; };
+		158F9D169E3B69D100A6CE5BC83F22A6 /* Beethoven-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B20C4659D55F4EC4650A77BB5267F1 /* Beethoven-dummy.m */; };
+		1A9B3940D84AB1170E5F5A3551059E44 /* Transformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C069319C418C250880F45D042CF53A31 /* Transformer.swift */; };
+		1B126F4D8AEF598FC0ED46EEB057DA39 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C62640BDEDE7D1F147D13A8DA72D57 /* Array+Extensions.swift */; };
+		1BF757104EE2E84FD1693D21A75E72D3 /* EstimationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B34140D520E58427DD5524975A5C1B /* EstimationStrategy.swift */; };
+		1D2168ADDBF2E853698B759933C3AA3E /* OutputSignalTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1267A528C5FDB3B5F7F4662F960275 /* OutputSignalTracker.swift */; };
+		1D337024FE6EFC62E9FC6FC105BC77D2 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7527BC69B6FFB15750C28BDF65675B7F /* Note.swift */; };
+		256F874FD879C9768CACDD2F4E26D139 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E106EB7DB4A5C92310BBEF32158FE433 /* Foundation.framework */; };
+		2EA991AB0592149551DC9E68F9CEA94B /* Pitchy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58DCA2C875912BAFE559B15D08804419 /* Pitchy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		314674662CB3401FBC5037A04765A0A7 /* QuinnsSecondEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4E8EAB890F2F204508DE79F379929 /* QuinnsSecondEstimator.swift */; };
+		325373999A599178CF7D849E284E71DE /* BarycentricEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95A016BBA10CDEC18C16C0D832E3DE /* BarycentricEstimator.swift */; };
+		34AFC75D199B165070A0A8B93EBB09AD /* QuadradicEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF23B97ADAF12F78055DCE61D91206B /* QuadradicEstimator.swift */; };
+		385E0C35BE951954E80F113420E6B082 /* JainsEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79C35C443EBC64CA05EFC1C0A308240 /* JainsEstimator.swift */; };
+		39F15AE327BF4D256F266DB60F4C34C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E106EB7DB4A5C92310BBEF32158FE433 /* Foundation.framework */; };
+		3F1A4BC06BCD9A07A9D0B3AF3302D341 /* QuinnsFirstEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5027E8DA49D57404CD718949B7FC48ED /* QuinnsFirstEstimator.swift */; };
+		4121548D7B50B9D38D36D9C09FD37DC7 /* PitchCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A7F1FC6D68D1A05F8EAA8479CE691 /* PitchCalculator.swift */; };
+		5451CD3C0D5D642CFEC432A208ECF50E /* Pods-TuneMyTone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2DF5D06A2F0990FC361BA7102101CE0 /* Pods-TuneMyTone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63F719849C06407592F2FD20EE7BD0EE /* Pods-TuneMyTone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3AE573B5D316580AD56378C48052B /* Pods-TuneMyTone-dummy.m */; };
+		6420BCD5A1779F67F5A90200DFE704DF /* SimpleTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAA8DDE7F162026F8AA9B93A6BA4A82 /* SimpleTransformer.swift */; };
+		64E3DC72564342E9B723BC000255377E /* SignalTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B134E022082F3086723696AE2A912601 /* SignalTracker.swift */; };
+		6B998C0AE391019A015F1A31442C58AB /* Pitchy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C7B7A6FDB89F45568894E0074E6061 /* Pitchy.framework */; };
+		770EE9346798F7A666AD8B556AE0D286 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7883A44F38C49ADB19CB5DAF64D60E3B /* Error.swift */; };
+		77441421DF27C2BD655CA6E5AC5166F6 /* EstimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABD95A80F11011F285330B45C7E1AB4 /* EstimationFactory.swift */; };
+		79E74B9B6C10EE51684D44E28EBF105C /* Pitchy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA4307612BA7DB8DA6827C1AE498B7D /* Pitchy-dummy.m */; };
+		7ED46BE5C55F4F88610B0274395EE3E6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AC76E5D3432DCCE2AC6BC04BFA1807 /* AVFoundation.framework */; };
+		8329D763A711C1782D01E47613515601 /* Beethoven-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63441E073E19F1D455BB181EE2FCA9CF /* Beethoven-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		847D64CC206938EA41613A10B1B2176C /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5E030BECE534D91D9B94F1F0DEE18 /* Buffer.swift */; };
+		849F622B963C6EDABB3D331AF8FD41D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E106EB7DB4A5C92310BBEF32158FE433 /* Foundation.framework */; };
+		87F2DAFDCB510F6F420825F28EC106E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83256097F0B040462A5B6153F3CAD9E3 /* UIKit.framework */; };
+		9B1237C6CA5E14892C68531EB834ABD2 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A19048B31105FF62766E18677CB1A /* Config.swift */; };
+		9D3B61ED576DF9CA95F8C20162BE7B42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E106EB7DB4A5C92310BBEF32158FE433 /* Foundation.framework */; };
+		A7F2F6BF013E4AA2723C15FF7AA15762 /* WaveCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B24CBC8AE196652D2CF168A3EFB3DB /* WaveCalculator.swift */; };
+		A99C30448573EE2BC607D040F87449C4 /* EstimationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1649BFD69FD3CF1F2D894E9687D88A /* EstimationError.swift */; };
+		B41FFD7EF759A89882338A4FD5018E9D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE04EEBDE3F07F94E45A21176FC8762 /* Accelerate.framework */; };
+		BC405C6F8D2146997E196813F093E49F /* PitchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E812A4DF95B61747E7146CF221D4C31 /* PitchEngine.swift */; };
+		BC861E68FE132965734FAD440CA22D48 /* AcousticWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F39C5451E2AAC7D948E339BB59963A7 /* AcousticWave.swift */; };
+		C1BC9B03476C5A05A2D9DB7032C95F1A /* YINTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8E3644BBCBAB825D5B724ADB92067 /* YINTransformer.swift */; };
+		C7EC509AFCF89059059F985B1042B014 /* NoteCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB95C7FA387C761AE222FD67F8700474 /* NoteCalculator.swift */; };
+		C8160C44E5DA428A77B00CE87426CE25 /* UIImage+Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6662D0BAD5555704B67F2718516ECB2 /* UIImage+Hue.swift */; };
+		C9B69B0FE3742130A6A6A380C8915FFF /* YINEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353D0742A3396C6C1F7A127B6579BF6A /* YINEstimator.swift */; };
+		CC0E651CE7AD4A8A9DD42264AE05C4FE /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3E9023699D970C13FECDD19A72B03A /* Pitch.swift */; };
+		D752A660ECF550B6BA409B0BE55370AC /* FrequencyValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F1B5862526359E072F463F0A8073CF /* FrequencyValidator.swift */; };
+		E15191F4338591D9387054EF029940FC /* MaxValueEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580D2A002F60C6AC26EADC487ED06CD8 /* MaxValueEstimator.swift */; };
+		E428BAEEED75847B5520A3DDEDB1F446 /* FFTTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C70AC0EBF6341F2F74E454B1D2F156 /* FFTTransformer.swift */; };
+		E7E31C0683199F6742566A090B828F4A /* Hue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16387F8D1C9426F1D2BB06DD2B2D1477 /* Hue-dummy.m */; };
+		F5B7AAD0F442E8BFCD51002B9650ACD2 /* SimulatorSignalTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA80303B26B5D37A6B2E388261FDD81 /* SimulatorSignalTracker.swift */; };
+		F791AAC57019379FE4EE60A87F2911E2 /* Hue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 223657C867552FD947582F7F2E51D2F8 /* Hue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8133A1B8BC8BE9A545E510DF4C1A1B2 /* Estimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B146D4C1AFCBDB718BBAB017EF1ED7 /* Estimator.swift */; };
+		F96FFFAA8FF7F24FFC62229179287F1C /* HPSEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC6F95E1433C851E64415D1145A552E /* HPSEstimator.swift */; };
+		FBA3C1DE55BB5EE8C7CD209EECA65617 /* LocationEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B9B1FFC6B98D4ABAF4D41747521B43 /* LocationEstimator.swift */; };
+		FBEBB3C98AFD647B1C25DB07FBA661B2 /* YINUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBBEB22A612997963147E40A3172BD9 /* YINUtil.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42B37D049C17DBB1C449CF400F66CC84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77C36D6D9ED175C0126E2FB753CC136A;
+			remoteInfo = Hue;
+		};
+		64A38314A76E643FA51574C1D3ADBD65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A48190F506B66487523A8A091227461;
+			remoteInfo = Pitchy;
+		};
+		798530665D63F2EA77EF60BACBB4049F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C49F8F2418A977145257AE21AB71896;
+			remoteInfo = Beethoven;
+		};
+		A5FE8C9A847B32F23B1E31A91060223F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A48190F506B66487523A8A091227461;
+			remoteInfo = Pitchy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DC5E030BECE534D91D9B94F1F0DEE18 /* Buffer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Buffer.swift; path = Source/Library/Buffer.swift; sourceTree = "<group>"; };
+		0E1AD8D00DE0D41523882B944000E123 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12B20C4659D55F4EC4650A77BB5267F1 /* Beethoven-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Beethoven-dummy.m"; sourceTree = "<group>"; };
+		15B146D4C1AFCBDB718BBAB017EF1ED7 /* Estimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Estimator.swift; path = Source/Estimation/Estimator.swift; sourceTree = "<group>"; };
+		16387F8D1C9426F1D2BB06DD2B2D1477 /* Hue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hue-dummy.m"; sourceTree = "<group>"; };
+		1E9F2A0F6F4AB9D40174DC1B2447EFD6 /* Pods-TuneMyTone-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TuneMyTone-resources.sh"; sourceTree = "<group>"; };
+		21C7B7A6FDB89F45568894E0074E6061 /* Pitchy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pitchy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		223657C867552FD947582F7F2E51D2F8 /* Hue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hue-umbrella.h"; sourceTree = "<group>"; };
+		22AC76E5D3432DCCE2AC6BC04BFA1807 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		25861D16F4C65A617736FA4E062173CF /* Pods-TuneMyTone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TuneMyTone.modulemap"; sourceTree = "<group>"; };
+		268B390835599CC3CB94B5522EDD30B8 /* UIColor+Hue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Hue.swift"; path = "Source/iOS/UIColor+Hue.swift"; sourceTree = "<group>"; };
+		2CA4307612BA7DB8DA6827C1AE498B7D /* Pitchy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pitchy-dummy.m"; sourceTree = "<group>"; };
+		327BE402AEAA86CB0F084DC9F4E0657A /* Beethoven.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Beethoven.modulemap; sourceTree = "<group>"; };
+		32B24CBC8AE196652D2CF168A3EFB3DB /* WaveCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WaveCalculator.swift; path = Source/Calculators/WaveCalculator.swift; sourceTree = "<group>"; };
+		353D0742A3396C6C1F7A127B6579BF6A /* YINEstimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YINEstimator.swift; path = Source/Estimation/Strategies/YINEstimator.swift; sourceTree = "<group>"; };
+		3B9FA50B9FCA106DDD76D983DD949537 /* Beethoven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Beethoven.framework; path = Beethoven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1267A528C5FDB3B5F7F4662F960275 /* OutputSignalTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OutputSignalTracker.swift; path = Source/SignalTracking/Units/OutputSignalTracker.swift; sourceTree = "<group>"; };
+		3EF3AE573B5D316580AD56378C48052B /* Pods-TuneMyTone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TuneMyTone-dummy.m"; sourceTree = "<group>"; };
+		42B4E8EAB890F2F204508DE79F379929 /* QuinnsSecondEstimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuinnsSecondEstimator.swift; path = Source/Estimation/Strategies/QuinnsSecondEstimator.swift; sourceTree = "<group>"; };
+		4DCA9D2444A5E71A5CFD2AF6880436F6 /* Pitchy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Pitchy.modulemap; sourceTree = "<group>"; };
+		4DFC31E051B76D250A0310394E44EA98 /* Pods-TuneMyTone-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TuneMyTone-frameworks.sh"; sourceTree = "<group>"; };
+		5027E8DA49D57404CD718949B7FC48ED /* QuinnsFirstEstimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuinnsFirstEstimator.swift; path = Source/Estimation/Strategies/QuinnsFirstEstimator.swift; sourceTree = "<group>"; };
+		546C3E73E1C7D776865053D71012F9C3 /* Beethoven.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Beethoven.xcconfig; sourceTree = "<group>"; };
+		580D2A002F60C6AC26EADC487ED06CD8 /* MaxValueEstimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaxValueEstimator.swift; path = Source/Estimation/Strategies/MaxValueEstimator.swift; sourceTree = "<group>"; };
+		58DCA2C875912BAFE559B15D08804419 /* Pitchy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pitchy-umbrella.h"; sourceTree = "<group>"; };
+		5AAA8DDE7F162026F8AA9B93A6BA4A82 /* SimpleTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleTransformer.swift; path = Source/Transform/Strategies/SimpleTransformer.swift; sourceTree = "<group>"; };
+		5C8A7F1FC6D68D1A05F8EAA8479CE691 /* PitchCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PitchCalculator.swift; path = Source/Calculators/PitchCalculator.swift; sourceTree = "<group>"; };
+		5D3E9023699D970C13FECDD19A72B03A /* Pitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pitch.swift; path = Source/Data/Pitch.swift; sourceTree = "<group>"; };
+		5DF8E3644BBCBAB825D5B724ADB92067 /* YINTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YINTransformer.swift; path = Source/Transform/Strategies/YINTransformer.swift; sourceTree = "<group>"; };
+		5FC8FE9DB64C0D505F4BEA12C28777E2 /* Pods-TuneMyTone-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TuneMyTone-acknowledgements.markdown"; sourceTree = "<group>"; };
+		61D94A6EE596E9EAEE74E3C2D17349B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62C0BE9F3FA268964D3395E70B9C191D /* Pods-TuneMyTone-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TuneMyTone-acknowledgements.plist"; sourceTree = "<group>"; };
+		63441E073E19F1D455BB181EE2FCA9CF /* Beethoven-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Beethoven-umbrella.h"; sourceTree = "<group>"; };
+		63735AADF26CB512C3E9EAF1CF421883 /* Pitchy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pitchy-prefix.pch"; sourceTree = "<group>"; };
+		699F3F13A21D49470A5059B6A1B9BAE7 /* InputSignalTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputSignalTracker.swift; path = Source/SignalTracking/Units/InputSignalTracker.swift; sourceTree = "<group>"; };
+		6E812A4DF95B61747E7146CF221D4C31 /* PitchEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PitchEngine.swift; path = Source/PitchEngine.swift; sourceTree = "<group>"; };
+		7527BC69B6FFB15750C28BDF65675B7F /* Note.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Note.swift; path = Source/Data/Note.swift; sourceTree = "<group>"; };
+		7883A44F38C49ADB19CB5DAF64D60E3B /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		7ABD95A80F11011F285330B45C7E1AB4 /* EstimationFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EstimationFactory.swift; path = Source/Estimation/EstimationFactory.swift; sourceTree = "<group>"; };
+		7B3C6261AB5DE7048786600B6928F6EF /* Pitchy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pitchy.xcconfig; sourceTree = "<group>"; };
+		7BC6F95E1433C851E64415D1145A552E /* HPSEstimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HPSEstimator.swift; path = Source/Estimation/Strategies/HPSEstimator.swift; sourceTree = "<group>"; };
+		7CBA27018E5A1F1F9F16E33ABE5007CF /* Hue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hue.framework; path = Hue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F95A016BBA10CDEC18C16C0D832E3DE /* BarycentricEstimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarycentricEstimator.swift; path = Source/Estimation/Strategies/BarycentricEstimator.swift; sourceTree = "<group>"; };
+		81B34140D520E58427DD5524975A5C1B /* EstimationStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EstimationStrategy.swift; path = Source/Estimation/EstimationStrategy.swift; sourceTree = "<group>"; };
+		83256097F0B040462A5B6153F3CAD9E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		87B9B1FFC6B98D4ABAF4D41747521B43 /* LocationEstimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationEstimator.swift; path = Source/Estimation/LocationEstimator.swift; sourceTree = "<group>"; };
+		8F39C5451E2AAC7D948E339BB59963A7 /* AcousticWave.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AcousticWave.swift; path = Source/Data/AcousticWave.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AA80303B26B5D37A6B2E388261FDD81 /* SimulatorSignalTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimulatorSignalTracker.swift; path = Source/SignalTracking/Units/SimulatorSignalTracker.swift; sourceTree = "<group>"; };
+		9B1649BFD69FD3CF1F2D894E9687D88A /* EstimationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EstimationError.swift; path = Source/Estimation/EstimationError.swift; sourceTree = "<group>"; };
+		9DF23B97ADAF12F78055DCE61D91206B /* QuadradicEstimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuadradicEstimator.swift; path = Source/Estimation/Strategies/QuadradicEstimator.swift; sourceTree = "<group>"; };
+		A3891A1D219699CBD4AFE67F398B1900 /* Pods-TuneMyTone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TuneMyTone.release.xcconfig"; sourceTree = "<group>"; };
+		A3C70AC0EBF6341F2F74E454B1D2F156 /* FFTTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FFTTransformer.swift; path = Source/Transform/Strategies/FFTTransformer.swift; sourceTree = "<group>"; };
+		B134E022082F3086723696AE2A912601 /* SignalTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignalTracker.swift; path = Source/SignalTracking/SignalTracker.swift; sourceTree = "<group>"; };
+		B1F1B5862526359E072F463F0A8073CF /* FrequencyValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrequencyValidator.swift; path = Source/FrequencyValidator.swift; sourceTree = "<group>"; };
+		B2DF5D06A2F0990FC361BA7102101CE0 /* Pods-TuneMyTone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TuneMyTone-umbrella.h"; sourceTree = "<group>"; };
+		BD263904AE9D0D32881A299FCD60D346 /* Pods-TuneMyTone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TuneMyTone.debug.xcconfig"; sourceTree = "<group>"; };
+		C069319C418C250880F45D042CF53A31 /* Transformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transformer.swift; path = Source/Transform/Transformer.swift; sourceTree = "<group>"; };
+		C07A19048B31105FF62766E18677CB1A /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Source/Config.swift; sourceTree = "<group>"; };
+		CAE04EEBDE3F07F94E45A21176FC8762 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		D12FCA63B250171B5EDD30D9DA944F6F /* Pods_TuneMyTone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TuneMyTone.framework; path = "Pods-TuneMyTone.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E106EB7DB4A5C92310BBEF32158FE433 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E247DDED8DB4B7A67C7B44F9ED387592 /* Pitchy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pitchy.framework; path = Pitchy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24E828B538A76C05CBCBC1EDBA96FC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C62640BDEDE7D1F147D13A8DA72D57 /* Array+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Extensions.swift"; path = "Source/Library/Extensions/Array+Extensions.swift"; sourceTree = "<group>"; };
+		EB95C7FA387C761AE222FD67F8700474 /* NoteCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoteCalculator.swift; path = Source/Calculators/NoteCalculator.swift; sourceTree = "<group>"; };
+		EEF1F6EEF1B7E69FA15D8BB469908A0A /* Hue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hue-prefix.pch"; sourceTree = "<group>"; };
+		F0787CEC41AFF099499EF464478CFF03 /* Hue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hue.xcconfig; sourceTree = "<group>"; };
+		F6088528E5AFAC57ABC8E5132CB3CFFA /* Hue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hue.modulemap; sourceTree = "<group>"; };
+		F6662D0BAD5555704B67F2718516ECB2 /* UIImage+Hue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Hue.swift"; path = "Source/iOS/UIImage+Hue.swift"; sourceTree = "<group>"; };
+		F79C35C443EBC64CA05EFC1C0A308240 /* JainsEstimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JainsEstimator.swift; path = Source/Estimation/Strategies/JainsEstimator.swift; sourceTree = "<group>"; };
+		FAA7A5F81888CF72D4573828D39D7A15 /* Beethoven-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Beethoven-prefix.pch"; sourceTree = "<group>"; };
+		FEFB9F5AD99768C1FF6A76B903AB8ED9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBBEB22A612997963147E40A3172BD9 /* YINUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YINUtil.swift; path = Source/Library/YINUtil.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FCB784D6877C18BE5EA837720A97163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41FFD7EF759A89882338A4FD5018E9D /* Accelerate.framework in Frameworks */,
+				7ED46BE5C55F4F88610B0274395EE3E6 /* AVFoundation.framework in Frameworks */,
+				849F622B963C6EDABB3D331AF8FD41D2 /* Foundation.framework in Frameworks */,
+				6B998C0AE391019A015F1A31442C58AB /* Pitchy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AA5863F78CE1E495EF9F30CD1A0F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F15AE327BF4D256F266DB60F4C34C3 /* Foundation.framework in Frameworks */,
+				87F2DAFDCB510F6F420825F28EC106E2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65519B29E4755571C4C211EEAF2DF297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256F874FD879C9768CACDD2F4E26D139 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58FB74075763E227EE7F674993B9F5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D3B61ED576DF9CA95F8C20162BE7B42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0941F1AB17E40F97FD9B151A99EB049A /* Pitchy */ = {
+			isa = PBXGroup;
+			children = (
+				8F39C5451E2AAC7D948E339BB59963A7 /* AcousticWave.swift */,
+				7883A44F38C49ADB19CB5DAF64D60E3B /* Error.swift */,
+				B1F1B5862526359E072F463F0A8073CF /* FrequencyValidator.swift */,
+				7527BC69B6FFB15750C28BDF65675B7F /* Note.swift */,
+				EB95C7FA387C761AE222FD67F8700474 /* NoteCalculator.swift */,
+				5D3E9023699D970C13FECDD19A72B03A /* Pitch.swift */,
+				5C8A7F1FC6D68D1A05F8EAA8479CE691 /* PitchCalculator.swift */,
+				32B24CBC8AE196652D2CF168A3EFB3DB /* WaveCalculator.swift */,
+				A7CD1F2CD2EA0E637DA6D25EAB46DA8E /* Support Files */,
+			);
+			name = Pitchy;
+			path = Pitchy;
+			sourceTree = "<group>";
+		};
+		29A26A6C5FEB19913C5F59E00124EED1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21C7B7A6FDB89F45568894E0074E6061 /* Pitchy.framework */,
+				7AA516BAA3285512020B240A4F5A4299 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59660C2546321BA5355EB5CA5969C8CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6088528E5AFAC57ABC8E5132CB3CFFA /* Hue.modulemap */,
+				F0787CEC41AFF099499EF464478CFF03 /* Hue.xcconfig */,
+				16387F8D1C9426F1D2BB06DD2B2D1477 /* Hue-dummy.m */,
+				EEF1F6EEF1B7E69FA15D8BB469908A0A /* Hue-prefix.pch */,
+				223657C867552FD947582F7F2E51D2F8 /* Hue-umbrella.h */,
+				0E1AD8D00DE0D41523882B944000E123 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Hue";
+			sourceTree = "<group>";
+		};
+		5E78DA978825C70DC4D59CC9F925087F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B9FA50B9FCA106DDD76D983DD949537 /* Beethoven.framework */,
+				7CBA27018E5A1F1F9F16E33ABE5007CF /* Hue.framework */,
+				E247DDED8DB4B7A67C7B44F9ED387592 /* Pitchy.framework */,
+				D12FCA63B250171B5EDD30D9DA944F6F /* Pods_TuneMyTone.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		700C49D65E5E0CDA5E8BBA81C7325FEC /* Hue */ = {
+			isa = PBXGroup;
+			children = (
+				268B390835599CC3CB94B5522EDD30B8 /* UIColor+Hue.swift */,
+				F6662D0BAD5555704B67F2718516ECB2 /* UIImage+Hue.swift */,
+				59660C2546321BA5355EB5CA5969C8CA /* Support Files */,
+			);
+			name = Hue;
+			path = Hue;
+			sourceTree = "<group>";
+		};
+		7AA516BAA3285512020B240A4F5A4299 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CAE04EEBDE3F07F94E45A21176FC8762 /* Accelerate.framework */,
+				22AC76E5D3432DCCE2AC6BC04BFA1807 /* AVFoundation.framework */,
+				E106EB7DB4A5C92310BBEF32158FE433 /* Foundation.framework */,
+				83256097F0B040462A5B6153F3CAD9E3 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				29A26A6C5FEB19913C5F59E00124EED1 /* Frameworks */,
+				F6234212F29D598A2CAD1E5CD976B0CF /* Pods */,
+				5E78DA978825C70DC4D59CC9F925087F /* Products */,
+				B2DC0A75B909C3C70F14BB7C08E3C4AE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E881CF4763BF33974640FF13F6CD73F /* Beethoven */ = {
+			isa = PBXGroup;
+			children = (
+				E7C62640BDEDE7D1F147D13A8DA72D57 /* Array+Extensions.swift */,
+				7F95A016BBA10CDEC18C16C0D832E3DE /* BarycentricEstimator.swift */,
+				0DC5E030BECE534D91D9B94F1F0DEE18 /* Buffer.swift */,
+				C07A19048B31105FF62766E18677CB1A /* Config.swift */,
+				9B1649BFD69FD3CF1F2D894E9687D88A /* EstimationError.swift */,
+				7ABD95A80F11011F285330B45C7E1AB4 /* EstimationFactory.swift */,
+				81B34140D520E58427DD5524975A5C1B /* EstimationStrategy.swift */,
+				15B146D4C1AFCBDB718BBAB017EF1ED7 /* Estimator.swift */,
+				A3C70AC0EBF6341F2F74E454B1D2F156 /* FFTTransformer.swift */,
+				7BC6F95E1433C851E64415D1145A552E /* HPSEstimator.swift */,
+				699F3F13A21D49470A5059B6A1B9BAE7 /* InputSignalTracker.swift */,
+				F79C35C443EBC64CA05EFC1C0A308240 /* JainsEstimator.swift */,
+				87B9B1FFC6B98D4ABAF4D41747521B43 /* LocationEstimator.swift */,
+				580D2A002F60C6AC26EADC487ED06CD8 /* MaxValueEstimator.swift */,
+				3E1267A528C5FDB3B5F7F4662F960275 /* OutputSignalTracker.swift */,
+				6E812A4DF95B61747E7146CF221D4C31 /* PitchEngine.swift */,
+				9DF23B97ADAF12F78055DCE61D91206B /* QuadradicEstimator.swift */,
+				5027E8DA49D57404CD718949B7FC48ED /* QuinnsFirstEstimator.swift */,
+				42B4E8EAB890F2F204508DE79F379929 /* QuinnsSecondEstimator.swift */,
+				B134E022082F3086723696AE2A912601 /* SignalTracker.swift */,
+				5AAA8DDE7F162026F8AA9B93A6BA4A82 /* SimpleTransformer.swift */,
+				9AA80303B26B5D37A6B2E388261FDD81 /* SimulatorSignalTracker.swift */,
+				C069319C418C250880F45D042CF53A31 /* Transformer.swift */,
+				353D0742A3396C6C1F7A127B6579BF6A /* YINEstimator.swift */,
+				5DF8E3644BBCBAB825D5B724ADB92067 /* YINTransformer.swift */,
+				FFBBEB22A612997963147E40A3172BD9 /* YINUtil.swift */,
+				95FCB406B41B347B606D4982E4BCA717 /* Support Files */,
+			);
+			name = Beethoven;
+			path = Beethoven;
+			sourceTree = "<group>";
+		};
+		95FCB406B41B347B606D4982E4BCA717 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				327BE402AEAA86CB0F084DC9F4E0657A /* Beethoven.modulemap */,
+				546C3E73E1C7D776865053D71012F9C3 /* Beethoven.xcconfig */,
+				12B20C4659D55F4EC4650A77BB5267F1 /* Beethoven-dummy.m */,
+				FAA7A5F81888CF72D4573828D39D7A15 /* Beethoven-prefix.pch */,
+				63441E073E19F1D455BB181EE2FCA9CF /* Beethoven-umbrella.h */,
+				61D94A6EE596E9EAEE74E3C2D17349B6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Beethoven";
+			sourceTree = "<group>";
+		};
+		A7CD1F2CD2EA0E637DA6D25EAB46DA8E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E24E828B538A76C05CBCBC1EDBA96FC3 /* Info.plist */,
+				4DCA9D2444A5E71A5CFD2AF6880436F6 /* Pitchy.modulemap */,
+				7B3C6261AB5DE7048786600B6928F6EF /* Pitchy.xcconfig */,
+				2CA4307612BA7DB8DA6827C1AE498B7D /* Pitchy-dummy.m */,
+				63735AADF26CB512C3E9EAF1CF421883 /* Pitchy-prefix.pch */,
+				58DCA2C875912BAFE559B15D08804419 /* Pitchy-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pitchy";
+			sourceTree = "<group>";
+		};
+		B2DC0A75B909C3C70F14BB7C08E3C4AE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E86F397460F6C8EB6E7987904E0DECDE /* Pods-TuneMyTone */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E86F397460F6C8EB6E7987904E0DECDE /* Pods-TuneMyTone */ = {
+			isa = PBXGroup;
+			children = (
+				FEFB9F5AD99768C1FF6A76B903AB8ED9 /* Info.plist */,
+				25861D16F4C65A617736FA4E062173CF /* Pods-TuneMyTone.modulemap */,
+				5FC8FE9DB64C0D505F4BEA12C28777E2 /* Pods-TuneMyTone-acknowledgements.markdown */,
+				62C0BE9F3FA268964D3395E70B9C191D /* Pods-TuneMyTone-acknowledgements.plist */,
+				3EF3AE573B5D316580AD56378C48052B /* Pods-TuneMyTone-dummy.m */,
+				4DFC31E051B76D250A0310394E44EA98 /* Pods-TuneMyTone-frameworks.sh */,
+				1E9F2A0F6F4AB9D40174DC1B2447EFD6 /* Pods-TuneMyTone-resources.sh */,
+				B2DF5D06A2F0990FC361BA7102101CE0 /* Pods-TuneMyTone-umbrella.h */,
+				BD263904AE9D0D32881A299FCD60D346 /* Pods-TuneMyTone.debug.xcconfig */,
+				A3891A1D219699CBD4AFE67F398B1900 /* Pods-TuneMyTone.release.xcconfig */,
+			);
+			name = "Pods-TuneMyTone";
+			path = "Target Support Files/Pods-TuneMyTone";
+			sourceTree = "<group>";
+		};
+		F6234212F29D598A2CAD1E5CD976B0CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E881CF4763BF33974640FF13F6CD73F /* Beethoven */,
+				700C49D65E5E0CDA5E8BBA81C7325FEC /* Hue */,
+				0941F1AB17E40F97FD9B151A99EB049A /* Pitchy */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		323BA93DCC564F5EB03537D12CDD91A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8329D763A711C1782D01E47613515601 /* Beethoven-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DD4DD595142F3D85089255903DD3C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5451CD3C0D5D642CFEC432A208ECF50E /* Pods-TuneMyTone-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831910205FA395CB084AD37E805AB34E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F791AAC57019379FE4EE60A87F2911E2 /* Hue-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DF1DA429099A04D1D88A79E87630DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA991AB0592149551DC9E68F9CEA94B /* Pitchy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C49F8F2418A977145257AE21AB71896 /* Beethoven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B7BE7E9617324003D719CE3908A3B9 /* Build configuration list for PBXNativeTarget "Beethoven" */;
+			buildPhases = (
+				323BA93DCC564F5EB03537D12CDD91A9 /* Headers */,
+				6496FD7C2585A19EC9FD9063FA183F85 /* Sources */,
+				4FCB784D6877C18BE5EA837720A97163 /* Frameworks */,
+				8FF15FC56F4A3CE8A4EF06A68D3730BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81BA50D9E50F2FCEFA72DA8F442F9D71 /* PBXTargetDependency */,
+			);
+			name = Beethoven;
+			productName = Beethoven;
+			productReference = 3B9FA50B9FCA106DDD76D983DD949537 /* Beethoven.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A48190F506B66487523A8A091227461 /* Pitchy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8446106F5659BFF4B455D278AA0E46F3 /* Build configuration list for PBXNativeTarget "Pitchy" */;
+			buildPhases = (
+				C2DF1DA429099A04D1D88A79E87630DE /* Headers */,
+				93DE04A232B98F7A9F3E0F057E668B31 /* Sources */,
+				B58FB74075763E227EE7F674993B9F5C /* Frameworks */,
+				D3B8D230A179B854AEE27398D20C101F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pitchy;
+			productName = Pitchy;
+			productReference = E247DDED8DB4B7A67C7B44F9ED387592 /* Pitchy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		77C36D6D9ED175C0126E2FB753CC136A /* Hue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F13FC8E5274803CE647623218C811E /* Build configuration list for PBXNativeTarget "Hue" */;
+			buildPhases = (
+				831910205FA395CB084AD37E805AB34E /* Headers */,
+				B85EBBAB08836506B9BE4170C01E750A /* Sources */,
+				62AA5863F78CE1E495EF9F30CD1A0F40 /* Frameworks */,
+				E7CF554E27D14880B612A01AEF9796E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hue;
+			productName = Hue;
+			productReference = 7CBA27018E5A1F1F9F16E33ABE5007CF /* Hue.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF3F1ACE167FA066FB42272BA3A59358 /* Pods-TuneMyTone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE117D1C597314344DF0C765D0795BB0 /* Build configuration list for PBXNativeTarget "Pods-TuneMyTone" */;
+			buildPhases = (
+				38DD4DD595142F3D85089255903DD3C0 /* Headers */,
+				855B1D31B0FA69DFD2A787CB1201CF88 /* Sources */,
+				65519B29E4755571C4C211EEAF2DF297 /* Frameworks */,
+				BEC7FFDEDADB982548D7E894A4AC8F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0041985BDD607583FDC067C48C627397 /* PBXTargetDependency */,
+				28C7982302C5E9D59AFD0773AE97566C /* PBXTargetDependency */,
+				411B0A08CB820B89BCA940BC79165ABF /* PBXTargetDependency */,
+			);
+			name = "Pods-TuneMyTone";
+			productName = "Pods-TuneMyTone";
+			productReference = D12FCA63B250171B5EDD30D9DA944F6F /* Pods_TuneMyTone.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5E78DA978825C70DC4D59CC9F925087F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C49F8F2418A977145257AE21AB71896 /* Beethoven */,
+				77C36D6D9ED175C0126E2FB753CC136A /* Hue */,
+				6A48190F506B66487523A8A091227461 /* Pitchy */,
+				AF3F1ACE167FA066FB42272BA3A59358 /* Pods-TuneMyTone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FF15FC56F4A3CE8A4EF06A68D3730BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC7FFDEDADB982548D7E894A4AC8F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B8D230A179B854AEE27398D20C101F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7CF554E27D14880B612A01AEF9796E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6496FD7C2585A19EC9FD9063FA183F85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B126F4D8AEF598FC0ED46EEB057DA39 /* Array+Extensions.swift in Sources */,
+				325373999A599178CF7D849E284E71DE /* BarycentricEstimator.swift in Sources */,
+				158F9D169E3B69D100A6CE5BC83F22A6 /* Beethoven-dummy.m in Sources */,
+				847D64CC206938EA41613A10B1B2176C /* Buffer.swift in Sources */,
+				9B1237C6CA5E14892C68531EB834ABD2 /* Config.swift in Sources */,
+				A99C30448573EE2BC607D040F87449C4 /* EstimationError.swift in Sources */,
+				77441421DF27C2BD655CA6E5AC5166F6 /* EstimationFactory.swift in Sources */,
+				1BF757104EE2E84FD1693D21A75E72D3 /* EstimationStrategy.swift in Sources */,
+				F8133A1B8BC8BE9A545E510DF4C1A1B2 /* Estimator.swift in Sources */,
+				E428BAEEED75847B5520A3DDEDB1F446 /* FFTTransformer.swift in Sources */,
+				F96FFFAA8FF7F24FFC62229179287F1C /* HPSEstimator.swift in Sources */,
+				0FB0B466ADDF257FC6F07CCDBFF03B68 /* InputSignalTracker.swift in Sources */,
+				385E0C35BE951954E80F113420E6B082 /* JainsEstimator.swift in Sources */,
+				FBA3C1DE55BB5EE8C7CD209EECA65617 /* LocationEstimator.swift in Sources */,
+				E15191F4338591D9387054EF029940FC /* MaxValueEstimator.swift in Sources */,
+				1D2168ADDBF2E853698B759933C3AA3E /* OutputSignalTracker.swift in Sources */,
+				BC405C6F8D2146997E196813F093E49F /* PitchEngine.swift in Sources */,
+				34AFC75D199B165070A0A8B93EBB09AD /* QuadradicEstimator.swift in Sources */,
+				3F1A4BC06BCD9A07A9D0B3AF3302D341 /* QuinnsFirstEstimator.swift in Sources */,
+				314674662CB3401FBC5037A04765A0A7 /* QuinnsSecondEstimator.swift in Sources */,
+				64E3DC72564342E9B723BC000255377E /* SignalTracker.swift in Sources */,
+				6420BCD5A1779F67F5A90200DFE704DF /* SimpleTransformer.swift in Sources */,
+				F5B7AAD0F442E8BFCD51002B9650ACD2 /* SimulatorSignalTracker.swift in Sources */,
+				1A9B3940D84AB1170E5F5A3551059E44 /* Transformer.swift in Sources */,
+				C9B69B0FE3742130A6A6A380C8915FFF /* YINEstimator.swift in Sources */,
+				C1BC9B03476C5A05A2D9DB7032C95F1A /* YINTransformer.swift in Sources */,
+				FBEBB3C98AFD647B1C25DB07FBA661B2 /* YINUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855B1D31B0FA69DFD2A787CB1201CF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F719849C06407592F2FD20EE7BD0EE /* Pods-TuneMyTone-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DE04A232B98F7A9F3E0F057E668B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC861E68FE132965734FAD440CA22D48 /* AcousticWave.swift in Sources */,
+				770EE9346798F7A666AD8B556AE0D286 /* Error.swift in Sources */,
+				D752A660ECF550B6BA409B0BE55370AC /* FrequencyValidator.swift in Sources */,
+				1D337024FE6EFC62E9FC6FC105BC77D2 /* Note.swift in Sources */,
+				C7EC509AFCF89059059F985B1042B014 /* NoteCalculator.swift in Sources */,
+				CC0E651CE7AD4A8A9DD42264AE05C4FE /* Pitch.swift in Sources */,
+				4121548D7B50B9D38D36D9C09FD37DC7 /* PitchCalculator.swift in Sources */,
+				79E74B9B6C10EE51684D44E28EBF105C /* Pitchy-dummy.m in Sources */,
+				A7F2F6BF013E4AA2723C15FF7AA15762 /* WaveCalculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85EBBAB08836506B9BE4170C01E750A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E31C0683199F6742566A090B828F4A /* Hue-dummy.m in Sources */,
+				02E76C84A0C6C419EA93A2026E008315 /* UIColor+Hue.swift in Sources */,
+				C8160C44E5DA428A77B00CE87426CE25 /* UIImage+Hue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0041985BDD607583FDC067C48C627397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Beethoven;
+			target = 3C49F8F2418A977145257AE21AB71896 /* Beethoven */;
+			targetProxy = 798530665D63F2EA77EF60BACBB4049F /* PBXContainerItemProxy */;
+		};
+		28C7982302C5E9D59AFD0773AE97566C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hue;
+			target = 77C36D6D9ED175C0126E2FB753CC136A /* Hue */;
+			targetProxy = 42B37D049C17DBB1C449CF400F66CC84 /* PBXContainerItemProxy */;
+		};
+		411B0A08CB820B89BCA940BC79165ABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pitchy;
+			target = 6A48190F506B66487523A8A091227461 /* Pitchy */;
+			targetProxy = 64A38314A76E643FA51574C1D3ADBD65 /* PBXContainerItemProxy */;
+		};
+		81BA50D9E50F2FCEFA72DA8F442F9D71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pitchy;
+			target = 6A48190F506B66487523A8A091227461 /* Pitchy */;
+			targetProxy = A5FE8C9A847B32F23B1E31A91060223F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09111D9DE7AC429CDBEC7BA1CC757B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546C3E73E1C7D776865053D71012F9C3 /* Beethoven.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Beethoven/Beethoven-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Beethoven/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Beethoven/Beethoven.modulemap";
+				PRODUCT_MODULE_NAME = Beethoven;
+				PRODUCT_NAME = Beethoven;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0AA3B91655AF95B1F49159CD8085CD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		69F242348DD996148F2FCE23010F3324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3C6261AB5DE7048786600B6928F6EF /* Pitchy.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pitchy/Pitchy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pitchy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Pitchy/Pitchy.modulemap";
+				PRODUCT_MODULE_NAME = Pitchy;
+				PRODUCT_NAME = Pitchy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7858F5B0830E44C7CA14596473CAD5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0787CEC41AFF099499EF464478CFF03 /* Hue.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hue/Hue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Hue/Hue.modulemap";
+				PRODUCT_MODULE_NAME = Hue;
+				PRODUCT_NAME = Hue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AD03A2CF681A424923F62B641F434A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546C3E73E1C7D776865053D71012F9C3 /* Beethoven.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Beethoven/Beethoven-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Beethoven/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Beethoven/Beethoven.modulemap";
+				PRODUCT_MODULE_NAME = Beethoven;
+				PRODUCT_NAME = Beethoven;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8000995DA02063BF3777393CD52061DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B50272EAF4AC6FCE3AF29BFC1EA98CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD263904AE9D0D32881A299FCD60D346 /* Pods-TuneMyTone.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TuneMyTone/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TuneMyTone/Pods-TuneMyTone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA99BD1AA24BF617223021BBE719F362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3C6261AB5DE7048786600B6928F6EF /* Pitchy.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pitchy/Pitchy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pitchy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Pitchy/Pitchy.modulemap";
+				PRODUCT_MODULE_NAME = Pitchy;
+				PRODUCT_NAME = Pitchy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE08B2E8F15B451891A139000580F2FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0787CEC41AFF099499EF464478CFF03 /* Hue.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hue/Hue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Hue/Hue.modulemap";
+				PRODUCT_MODULE_NAME = Hue;
+				PRODUCT_NAME = Hue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F320F8AFD21047B58B1B1FEB836E512E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3891A1D219699CBD4AFE67F398B1900 /* Pods-TuneMyTone.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TuneMyTone/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TuneMyTone/Pods-TuneMyTone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02F13FC8E5274803CE647623218C811E /* Build configuration list for PBXNativeTarget "Hue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE08B2E8F15B451891A139000580F2FC /* Debug */,
+				7858F5B0830E44C7CA14596473CAD5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA3B91655AF95B1F49159CD8085CD89 /* Debug */,
+				8000995DA02063BF3777393CD52061DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8446106F5659BFF4B455D278AA0E46F3 /* Build configuration list for PBXNativeTarget "Pitchy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F242348DD996148F2FCE23010F3324 /* Debug */,
+				BA99BD1AA24BF617223021BBE719F362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B7BE7E9617324003D719CE3908A3B9 /* Build configuration list for PBXNativeTarget "Beethoven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09111D9DE7AC429CDBEC7BA1CC757B03 /* Debug */,
+				7AD03A2CF681A424923F62B641F434A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE117D1C597314344DF0C765D0795BB0 /* Build configuration list for PBXNativeTarget "Pods-TuneMyTone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50272EAF4AC6FCE3AF29BFC1EA98CAC /* Debug */,
+				F320F8AFD21047B58B1B1FEB836E512E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

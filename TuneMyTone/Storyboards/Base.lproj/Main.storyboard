@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="GameViewController" customModule="TuneMyTone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bSw-5t-w3b" customClass="SKView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <viewLayoutGuide key="safeArea" id="o40-4D-sdV"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pN0-nz-2dO">
+                                <rect key="frame" x="20" y="636" width="15.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 Hz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1pX-1F-79M">
+                                <rect key="frame" x="55.5" y="636.5" width="36" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZkS-g7-g84">
+                                <rect key="frame" x="162.5" y="631.5" width="50" height="30"/>
+                                <color key="backgroundColor" red="0.0046019552769999998" green="0.59901230569999997" blue="0.0071424370139999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="YXx-EL-orl"/>
+                                </constraints>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionButtonPressed:" destination="BV1-FR-VrT" eventType="touchUpInside" id="XW9-ab-g3u"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bSw-5t-w3b" firstAttribute="leading" secondItem="4qk-I5-YsI" secondAttribute="leading" id="0Ap-aJ-Vma"/>
+                            <constraint firstItem="1pX-1F-79M" firstAttribute="leading" secondItem="pN0-nz-2dO" secondAttribute="trailing" constant="20" id="0ox-3R-Z1L"/>
+                            <constraint firstItem="4qk-I5-YsI" firstAttribute="bottom" secondItem="bSw-5t-w3b" secondAttribute="bottom" id="7QK-Wx-Rjz"/>
+                            <constraint firstItem="4qk-I5-YsI" firstAttribute="bottom" secondItem="pN0-nz-2dO" secondAttribute="bottom" constant="10" id="Axw-pM-8Md"/>
+                            <constraint firstItem="1pX-1F-79M" firstAttribute="centerY" secondItem="ZkS-g7-g84" secondAttribute="centerY" id="KcQ-BV-ycH"/>
+                            <constraint firstItem="1pX-1F-79M" firstAttribute="centerY" secondItem="pN0-nz-2dO" secondAttribute="centerY" id="OmA-KK-T6i"/>
+                            <constraint firstItem="bSw-5t-w3b" firstAttribute="top" secondItem="3se-qz-xqx" secondAttribute="top" id="Q5V-l7-Jaa"/>
+                            <constraint firstItem="4qk-I5-YsI" firstAttribute="trailing" secondItem="bSw-5t-w3b" secondAttribute="trailing" id="TNj-64-0tD"/>
+                            <constraint firstItem="ZkS-g7-g84" firstAttribute="centerX" secondItem="bSw-5t-w3b" secondAttribute="centerX" id="Xgi-yh-tZh"/>
+                            <constraint firstItem="pN0-nz-2dO" firstAttribute="leading" secondItem="4qk-I5-YsI" secondAttribute="leading" constant="20" id="gBg-E5-Mpu"/>
+                            <constraint firstItem="ZkS-g7-g84" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="1pX-1F-79M" secondAttribute="trailing" constant="20" id="qrf-6N-h3Q"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4qk-I5-YsI"/>
+                    </view>
+                    <connections>
+                        <outlet property="actionButton" destination="ZkS-g7-g84" id="Ri5-Ef-wgH"/>
+                        <outlet property="gameSKView" destination="bSw-5t-w3b" id="ZEq-zg-JKR"/>
+                        <outlet property="noteLabel" destination="pN0-nz-2dO" id="9Vw-1h-sGS"/>
+                        <outlet property="offsetLabel" destination="1pX-1F-79M" id="3uj-Yc-BDh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141.59999999999999" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>

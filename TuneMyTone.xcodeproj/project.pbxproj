@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE541E7B9761DC952F868A23 /* Pods_TuneMyTone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB345FFDB947B4110358E56 /* Pods_TuneMyTone.framework */; };
+		C11DF24E21B3439E007AF37C /* SUBWT___.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11DF24D21B3439D007AF37C /* SUBWT___.ttf */; };
+		C123FF9421B1CDF700ECBAD9 /* MyNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = C123FF9321B1CDF700ECBAD9 /* MyNote.swift */; };
+		C123FF9621B1D1FA00ECBAD9 /* Scales.swift in Sources */ = {isa = PBXBuildFile; fileRef = C123FF9521B1D1FA00ECBAD9 /* Scales.swift */; };
+		C1B9D29521ACFAB40034A420 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B9D29421ACFAB40034A420 /* AppDelegate.swift */; };
+		C1B9D29B21ACFAB40034A420 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B9D29A21ACFAB40034A420 /* GameScene.swift */; };
+		C1B9D29D21ACFAB40034A420 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B9D29C21ACFAB40034A420 /* GameViewController.swift */; };
+		C1B9D2A021ACFAB40034A420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B9D29E21ACFAB40034A420 /* Main.storyboard */; };
+		C1B9D2A221ACFAB50034A420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B9D2A121ACFAB50034A420 /* Assets.xcassets */; };
+		C1B9D2A521ACFAB50034A420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B9D2A321ACFAB50034A420 /* LaunchScreen.storyboard */; };
+		C1CB7A2621B370E200F2103D /* ScoreNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CB7A2521B370E200F2103D /* ScoreNode.swift */; };
+		C1E42E0121B4844B00E75CBD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C1E42E0021B4844B00E75CBD /* GameScene.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		066FB0D109D19CF9B6B99661 /* Pods-TuneMyTone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuneMyTone.release.xcconfig"; path = "Pods/Target Support Files/Pods-TuneMyTone/Pods-TuneMyTone.release.xcconfig"; sourceTree = "<group>"; };
+		20D647087F46B9CA23686E76 /* Pods-TuneMyTone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuneMyTone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TuneMyTone/Pods-TuneMyTone.debug.xcconfig"; sourceTree = "<group>"; };
+		5FB345FFDB947B4110358E56 /* Pods_TuneMyTone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TuneMyTone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11DF24D21B3439D007AF37C /* SUBWT___.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUBWT___.ttf"; sourceTree = "<group>"; };
+		C123FF9321B1CDF700ECBAD9 /* MyNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNote.swift; sourceTree = "<group>"; };
+		C123FF9521B1D1FA00ECBAD9 /* Scales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scales.swift; sourceTree = "<group>"; };
+		C1B9D29121ACFAB40034A420 /* TuneMyTone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuneMyTone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B9D29421ACFAB40034A420 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1B9D29A21ACFAB40034A420 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C1B9D29C21ACFAB40034A420 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C1B9D29F21ACFAB40034A420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1B9D2A121ACFAB50034A420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1B9D2A421ACFAB50034A420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1B9D2A621ACFAB50034A420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1CB7A2521B370E200F2103D /* ScoreNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreNode.swift; sourceTree = "<group>"; };
+		C1E42E0021B4844B00E75CBD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1B9D28E21ACFAB40034A420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE541E7B9761DC952F868A23 /* Pods_TuneMyTone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		592AADF285D38468BE7D395F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20D647087F46B9CA23686E76 /* Pods-TuneMyTone.debug.xcconfig */,
+				066FB0D109D19CF9B6B99661 /* Pods-TuneMyTone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3E5A1F2CCBE126BC516A12F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FB345FFDB947B4110358E56 /* Pods_TuneMyTone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C11DF24C21B34391007AF37C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C11DF24D21B3439D007AF37C /* SUBWT___.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C123FF9221B1CDC400ECBAD9 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				C123FF9321B1CDF700ECBAD9 /* MyNote.swift */,
+				C123FF9521B1D1FA00ECBAD9 /* Scales.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		C1964BD921ADD7D900ABCCC5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C1B9D29E21ACFAB40034A420 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C1B9D28821ACFAB40034A420 = {
+			isa = PBXGroup;
+			children = (
+				C1B9D29321ACFAB40034A420 /* TuneMyTone */,
+				C1B9D29221ACFAB40034A420 /* Products */,
+				592AADF285D38468BE7D395F /* Pods */,
+				A3E5A1F2CCBE126BC516A12F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1B9D29221ACFAB40034A420 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1B9D29121ACFAB40034A420 /* TuneMyTone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1B9D29321ACFAB40034A420 /* TuneMyTone */ = {
+			isa = PBXGroup;
+			children = (
+				C1B9D2A621ACFAB50034A420 /* Info.plist */,
+				C1CB7A2421B370BD00F2103D /* SKNodes */,
+				C11DF24C21B34391007AF37C /* Fonts */,
+				C123FF9221B1CDC400ECBAD9 /* Structs */,
+				C1964BD921ADD7D900ABCCC5 /* Storyboards */,
+				C1B9D2AF21ACFB140034A420 /* Scenes */,
+				C1B9D2AE21ACFAFF0034A420 /* ViewControllers */,
+				C1B9D2AD21ACFAD80034A420 /* Assets */,
+				C1B9D2AC21ACFABF0034A420 /* Templates */,
+			);
+			path = TuneMyTone;
+			sourceTree = "<group>";
+		};
+		C1B9D2AC21ACFABF0034A420 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				C1B9D29421ACFAB40034A420 /* AppDelegate.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		C1B9D2AD21ACFAD80034A420 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C1B9D2A121ACFAB50034A420 /* Assets.xcassets */,
+				C1B9D2A321ACFAB50034A420 /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C1B9D2AE21ACFAFF0034A420 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1B9D29C21ACFAB40034A420 /* GameViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C1B9D2AF21ACFB140034A420 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C1B9D29A21ACFAB40034A420 /* GameScene.swift */,
+				C1E42E0021B4844B00E75CBD /* GameScene.sks */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C1CB7A2421B370BD00F2103D /* SKNodes */ = {
+			isa = PBXGroup;
+			children = (
+				C1CB7A2521B370E200F2103D /* ScoreNode.swift */,
+			);
+			path = SKNodes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1B9D29021ACFAB40034A420 /* TuneMyTone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B9D2A921ACFAB50034A420 /* Build configuration list for PBXNativeTarget "TuneMyTone" */;
+			buildPhases = (
+				E390D8D6C120E386C445EDC2 /* [CP] Check Pods Manifest.lock */,
+				C1B9D28D21ACFAB40034A420 /* Sources */,
+				C1B9D28E21ACFAB40034A420 /* Frameworks */,
+				C1B9D28F21ACFAB40034A420 /* Resources */,
+				A2B0F7D6A1A07BBC1E163EC0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuneMyTone;
+			productName = TuneMyTone;
+			productReference = C1B9D29121ACFAB40034A420 /* TuneMyTone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1B9D28921ACFAB40034A420 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Fernando N. Frassia";
+				TargetAttributes = {
+					C1B9D29021ACFAB40034A420 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = C1B9D28C21ACFAB40034A420 /* Build configuration list for PBXProject "TuneMyTone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1B9D28821ACFAB40034A420;
+			productRefGroup = C1B9D29221ACFAB40034A420 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1B9D29021ACFAB40034A420 /* TuneMyTone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1B9D28F21ACFAB40034A420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B9D2A021ACFAB40034A420 /* Main.storyboard in Resources */,
+				C1B9D2A221ACFAB50034A420 /* Assets.xcassets in Resources */,
+				C11DF24E21B3439E007AF37C /* SUBWT___.ttf in Resources */,
+				C1E42E0121B4844B00E75CBD /* GameScene.sks in Resources */,
+				C1B9D2A521ACFAB50034A420 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2B0F7D6A1A07BBC1E163EC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TuneMyTone/Pods-TuneMyTone-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Beethoven/Beethoven.framework",
+				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
+				"${BUILT_PRODUCTS_DIR}/Pitchy/Pitchy.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Beethoven.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pitchy.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TuneMyTone/Pods-TuneMyTone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E390D8D6C120E386C445EDC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TuneMyTone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1B9D28D21ACFAB40034A420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C123FF9421B1CDF700ECBAD9 /* MyNote.swift in Sources */,
+				C1CB7A2621B370E200F2103D /* ScoreNode.swift in Sources */,
+				C1B9D29B21ACFAB40034A420 /* GameScene.swift in Sources */,
+				C1B9D29D21ACFAB40034A420 /* GameViewController.swift in Sources */,
+				C1B9D29521ACFAB40034A420 /* AppDelegate.swift in Sources */,
+				C123FF9621B1D1FA00ECBAD9 /* Scales.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1B9D29E21ACFAB40034A420 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B9D29F21ACFAB40034A420 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1B9D2A321ACFAB50034A420 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B9D2A421ACFAB50034A420 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1B9D2A721ACFAB50034A420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1B9D2A821ACFAB50034A420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1B9D2AA21ACFAB50034A420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D647087F46B9CA23686E76 /* Pods-TuneMyTone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 426MNF8EA3;
+				INFOPLIST_FILE = TuneMyTone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FerFrassia.SingAlong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C1B9D2AB21ACFAB50034A420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 066FB0D109D19CF9B6B99661 /* Pods-TuneMyTone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 426MNF8EA3;
+				INFOPLIST_FILE = TuneMyTone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FerFrassia.SingAlong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1B9D28C21ACFAB40034A420 /* Build configuration list for PBXProject "TuneMyTone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B9D2A721ACFAB50034A420 /* Debug */,
+				C1B9D2A821ACFAB50034A420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B9D2A921ACFAB50034A420 /* Build configuration list for PBXNativeTarget "TuneMyTone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B9D2AA21ACFAB50034A420 /* Debug */,
+				C1B9D2AB21ACFAB50034A420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1B9D28921ACFAB40034A420 /* Project object */;
+}
